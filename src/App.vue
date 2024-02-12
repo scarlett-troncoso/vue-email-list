@@ -26,8 +26,8 @@ export default {
 
 <template>
   <h3>Lista Emails:</h3>
-  <ul v-for="email in Emails">
-    <li>{{ email }}</li>
+  <ul>
+    <li v-for="email in Emails">{{ email }}</li>
   </ul>
 </template>
 
